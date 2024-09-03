@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'prismjs/themes/prism.css';
+
+body {
+  @apply font-sans bg-gray-100 dark:bg-gray-900 dark:text-gray-100;
+}
+
+h1 {
+  @apply text-4xl font-bold text-center my-8 text-blue-600 dark:text-blue-400;
+}
+
+form {
+  @apply flex flex-col items-center;
+}
+
+textarea {
+  @apply w-full mb-4 p-3 border border-gray-300 dark:border-gray-700 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+button {
+  @apply px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300;
+}
+
+pre {
+  @apply bg-gray-200 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto shadow-inner;
+}
+
+table {
+  @apply w-full mx-auto my-4 border-collapse shadow-lg;
+}
+
+th, td {
+  @apply border border-gray-300 dark:border-gray-700 p-4 text-left;
+}
+
+th {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
