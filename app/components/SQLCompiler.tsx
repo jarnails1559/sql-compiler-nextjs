@@ -376,7 +376,7 @@ const SQLCompiler: React.FC = () => {
   return (
     <div className={`container mx-auto p-4 ${darkMode ? 'dark' : ''}`}>
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">SQL Compiler</h1>
+        <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">Khalsa College SQL Compiler</h1>
         <div className="flex space-x-2">
           <button onClick={() => setDarkMode(!darkMode)} className="p-2 rounded-full bg-gray-200 dark:bg-gray-700">
             {darkMode ? <Sun className="text-yellow-400" /> : <Moon className="text-gray-700" />}
